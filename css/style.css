@@ -61,3 +61,46 @@ li{
     
 }
 
+.hero-section{
+    background-color: blue;
+    height: 60vh;
+    padding: 4rem 0;
+}
+
+.text-hero{
+    background-color: violet;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    
+
+}
+.section{
+    
+}
+
+.section-gray{
+    background-color: lightgray;
+}
+
+.container-inside{
+    width: 70%;
+    display: flex;
+    height: 70vh;
+    padding: 4rem 0;
+    margin: 0 auto;
+    
+}
+
+.left-side{
+    background-color: cornflowerblue;
+    flex-basis: 65%;
+    height: 100%;
+}
+
+.right-side{
+    background-color: pink;
+    flex-basis: 35%;
+    height: 100%;
+}
