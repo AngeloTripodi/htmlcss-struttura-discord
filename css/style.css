@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+}
+
+header{
+    background-color: lightblue;
+    padding: 1rem 0;
+    
+}
+
+
+li{
+    list-style-type: none;    
+}
+
+
+
+.header-sub{
+    display: flex;
+    width: 70%;
+    background-color: orange;
+    margin: 0 auto;
+}
+/* da togliere, serve solo per far vedere i bordi */
+.border{
+    border: 3px black dotted;
+}
+
+.logo-section{
+    display: flex;
+    flex-basis: 25%;
+    align-content: start;
+    padding: 1rem 0.5rem;
+    align-items: center;
+}
+
+.link-section{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    align-items: center;
+}
+
+.login-section{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.flex {
+    display: flex;
+    
+}
+
